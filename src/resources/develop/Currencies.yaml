@@ -5,7 +5,7 @@ codeType:
     type: fixedchar
     size: 3
 
-# Pending values
+# SP values
 ###############
 #XPD    .   Palladium (one troy ounce)
 # XPF:
@@ -263,6 +263,62 @@ values:
       precision: 8
       fractional_unit: Satoshis
       monetary_authority: Satoshi Nakamoto
+      
+      code: BTC
+    name: Bitcoin
+    label: Bitcoin
+    metadata:
+      symbol: "₿"
+      precision: 8
+      fractional_unit: Satoshis
+      polity:
+        - ALA
+        - AND
+        - AUT
+        - BEL
+        - CYP
+        - EST
+        - FIN
+        - FRA
+        - ATF
+        - DEU
+        - GRC
+        - GLP
+        - IRL
+        - ITA
+        - LVA
+        - LTU
+        - LUX
+        - MLT
+        - GUF
+        - MTQ
+        - MYT
+        - MCO
+        - MNE
+        - NLD
+        - PRT
+        - REU
+        - BLM
+        - MAF
+        - SPM
+        - SMR
+        - SVK
+        - SVN
+        - ESP
+        - USD
+        - ETH
+        - USDC
+        - USDT
+        - XAU
+        - XPD
+        - XPT
+        - XAG
+        - XBA
+        - XBB
+        - XBC
+        - XBD
+        - XDR
+      monetary_authority: European Central Bank
 
   - code: BTN
     name: BhutaneseNgultrum
